@@ -1,5 +1,4 @@
 import React from "react";
-
 interface IconProps {
   name: 'action' | 'comedy' | 'documentary' | 'drama' | 'horror' | 'family';
   color: string;
@@ -50,3 +49,4 @@ export function Icon(props: IconProps) {
       );
   }
 }
+
